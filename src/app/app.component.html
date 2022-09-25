@@ -9,6 +9,7 @@
 </div>
 
 <div class="test-area">
+    <p *appUnless="isFalse">This is only show when false</p>
     <p appBasicHighlight>Styling with basic highlight directive</p>
     <p appBetterHighlight [defaultColor]="'red'" hightlightColor="orange">Styling with basic highlight directive</p>
 </div>
