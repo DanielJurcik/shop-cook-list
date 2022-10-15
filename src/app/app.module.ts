@@ -14,6 +14,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BasicHighlightDirective } from './directives/basic-highlight/basic-hightlight.directive';
 import { BetterHighlightDirective } from './directives/better-bightlight/better-highlight.directive';
 import { UnlessDirective } from './directives/unless/unless.directive';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -27,13 +28,14 @@ import { UnlessDirective } from './directives/unless/unless.directive';
     ShoppingEditComponent,
     BasicHighlightDirective,
     BetterHighlightDirective,
-    UnlessDirective
+    UnlessDirective,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

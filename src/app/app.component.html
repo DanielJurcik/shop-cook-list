@@ -8,11 +8,15 @@
     </div>
 </div>
 
+<br>
+<br>
+<br>
 <div class="test-area">
     <p *appUnless="isFalse">This is only show when false</p>
     <p appBasicHighlight>Styling with basic highlight directive</p>
     <p appBetterHighlight [defaultColor]="'red'" hightlightColor="orange">Styling with basic highlight directive</p>
 </div>
+
 
 <div [ngSwitch]="value">
     <p *ngSwitchCase="5">Value is 5</p>
