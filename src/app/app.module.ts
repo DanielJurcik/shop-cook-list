@@ -37,6 +37,7 @@ import { ShoppingListService } from './shopping-list/shopping-list.service';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    AppRoutingModule
   ],
   providers: [ShoppingListService],
   bootstrap: [AppComponent]
